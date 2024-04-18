@@ -22,13 +22,6 @@ export default async function Home() {
   return (
     <>
       <Banner />
-
-      <Features />
-
-      <section className='py-10'>
-        <Partners />
-      </section>
-
     </>
   )
 }

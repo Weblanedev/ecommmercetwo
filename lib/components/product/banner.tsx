@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Banner = () => {
 
 	const style = {
-		backgroundImage: `url(/banner.jpg)`,
+		backgroundImage: `url(https://images.pexels.com/photos/974911/pexels-photo-974911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,
 	};
 
 	const scrollToProducts = () => {

@@ -25,7 +25,7 @@ const Billing = () => {
     const numericalPart = parseFloat(input?.replace(/[^\d.]/g, ""));
 
     // Adding 100 to the numerical part
-    const result = numericalPart + 105;
+    const result = numericalPart + 5;
 
     // Formatting the result back to the original format
     const formattedResult = result.toFixed(2);
@@ -100,7 +100,7 @@ const Billing = () => {
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-blue-950">
             Order Details
           </h1>
-          <p>Find the best way to get help and connect with Splashtop</p>
+          <p>Find the best way to get help and connect with us</p>
         </div>
       </section>
 
@@ -175,14 +175,6 @@ const Billing = () => {
               </h4>
               <h4 className="text-[#161616] font-medium text-[16px]">
                 ${selectedItem?.price}
-              </h4>
-            </div>
-            <div className="flex items-center justify-between py-[15px] w-full border-b">
-              <h4 className="text-[#707070] uppercase font-medium text-[13px]">
-                Labor service charge
-              </h4>
-              <h4 className="text-[#161616] font-medium text-[16px]">
-                $100.00
               </h4>
             </div>
             <div className="flex items-center justify-between py-[15px] w-full border-b">
